@@ -46,12 +46,39 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #0077cc;
-    color: white;
     position: sticky;
     top: 0;
     z-index: 999;
+    color: white;
+    background: linear-gradient(67.6deg, rgb(225, 242, 254) -2.8%, rgb(193, 224, 250) 44.6%, rgb(19, 116, 197) 102.4%);;
+}
+
+.header-left {
+    padding: 1rem 2rem;
+}
+
+.header-left img {
+    width: 200px;
+}
+
+.header-right {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-right ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .logo {
@@ -327,6 +354,9 @@ select {
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+}
+a{
+    text-decoration: none;
 }
 
 .book-now-btn:hover {
